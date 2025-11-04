@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fae30d10154b87847815d95b2b9032a2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TheMarker: {fileID: 1132727656691488, guid: f3facbe60314c4fca920450b525cf7ad,
+      type: 3}
+  - Cube1: {fileID: 682819297634914517, guid: f946d3073b3eda74e83d9fc8c0b2825a, type: 3}
+  - Cube2: {fileID: 8140468521277095620, guid: 2375e0d27ab22ef4b891e37d53f7bd2e, type: 3}
+  - Cube3: {fileID: 4185440451688592838, guid: 54a408b2f18da3046b880909391f6757, type: 3}
+  - Cube4: {fileID: 4972249780298216290, guid: d7971b5d5b3ac0948b0c517884cc6b9a, type: 3}
+  - Cube5: {fileID: 3326238413314281533, guid: 7b9308fb82852e343b385db244d00c1e, type: 3}
+  - Cube6: {instanceID: 0}
+  - Cube7: {instanceID: 0}
+  - Cube8: {instanceID: 0}
+  - Cube9: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

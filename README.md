@@ -1,6 +1,6 @@
 # Top-Down Tank Racing Game
 
-A Unity-based top-down racing game featuring player-controlled tank mechanics and AI opponent cars that navigate through waypoint-based tracks. Built as part of CENG361 coursework.
+A Unity-based top-down racing game featuring player-controlled tank mechanics and AI opponent cars that navigate through waypoint-based tracks. Built as part of CS361 coursework.
 
 ## 🎮 Game Overview
 
@@ -56,7 +56,7 @@ Track management system for waypoint progression.
 ### Project Structure
 
 ```
-ceng361/
+cs361/
 ├── scripts/                    # Core game scripts
 │   ├── Movement.cs            # Physics-based car controller
 │   ├── CarAIScript.cs         # AI enemy car controller
@@ -158,22 +158,16 @@ Simulates game logic to verify:
 - **Drag System**: Different drag values for air vs. ground movement
 - **Gravity**: Applied to AI cars when not grounded
 
-## 🐛 Known Issues & Fixes
 
-The following issues have been fixed in this version:
-- ✅ Fixed `CarAIScript.cs`: Variable name spacing and missing parentheses
-- ✅ Fixed `CarAIScript.cs`: Gravity calculation using `Time.deltaTime`
-- ✅ Fixed `CarTrack.cs`: `OnTriggerEnter` return type (now uses coroutine)
-
-## 📝 Code Quality
+##  Code Quality
 
 All scripts have been validated and tested:
-- ✅ No compilation errors
-- ✅ Proper null checks where needed
-- ✅ Correct Unity API usage
-- ✅ Logic simulation tests passed
+-  No compilation errors
+-  Proper null checks where needed
+-  Correct Unity API usage
+-  Logic simulation tests passed
 
-## 🎨 Assets
+##  Assets
 
 Game assets are provided by [Kenney](https://kenney.nl/):
 - Top-down tank sprites
@@ -181,7 +175,7 @@ Game assets are provided by [Kenney](https://kenney.nl/):
 - Object sprites
 - Sprite sheets (default and retina resolutions)
 
-## 📚 Documentation
+## � Documentation
 
 - **Scripts**: All scripts include inline comments
 - **Scene Setup**: Configure in Unity Editor:
@@ -191,23 +185,17 @@ Game assets are provided by [Kenney](https://kenney.nl/):
   4. Attach `CarTrack.cs` to track manager GameObject
   5. Configure all public GameObject references in Inspector
 
-## 🤝 Contributing
-
-This is a coursework project. Contributions and improvements are welcome!
 
 ## 📄 License
 
 This project uses assets from Kenney.nl. Please refer to the License.txt file in the `project/` directory for asset licensing information.
 
-## 👨‍💻 Author
-
-Developed as part of CENG361 coursework, Spring 2021.
 
 ## 🙏 Acknowledgments
 
 - [Kenney](https://kenney.nl/) for game assets
 - Unity Technologies for the game engine
-- CENG361 course instructors
+
 
 ---
 
